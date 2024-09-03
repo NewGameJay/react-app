@@ -1,46 +1,33 @@
-import React, { useState } from 'react';
-import './SignInPage.css';
+import React from "react";
+import { AiFillEye } from "./AiFillEye";
+import { ChevronRight } from "./ChevronRight";
+import "./SignInPage.css"; // Assuming you have a CSS file for styles
 
 const SignInPage = () => {
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Handle sign in logic here
-  };
-
   return (
     <div className="sign-in-page">
-    <div className="sign-in-container">
-      <h1>Sign in</h1>
-      <form onSubmit={handleSubmit}>
-        <input
-          type="email"
-          placeholder="Email address"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-          required
-        />
-        <input
-          type="password"
-          placeholder="Password"
-          value={password}
-          onChange={(e) => setPassword(e.target.value)}
-          required
-        />
-        <a href="#" className="forgot-password">Forgot password?</a>
-        <button type="submit" className="sign-in-button">Sign in</button>
-      </form>
-      <div className="divider">
-        <span>or</span>
+      <div className="sign-in-container">
+        <h1>Sign In</h1>
+        <form className="sign-in-form">
+          <div className="input-group">
+            <input type="email" placeholder="Email" required />
+            <AiFillEye className="eye-icon" />
+          </div>
+          <div className="input-group">
+            <input type="password" placeholder="Password" required />
+            <AiFillEye className="eye-icon" />
+          </div>
+          <button type="submit" className="sign-in-button">Sign In</button>
+          <button className="forgot-password">Forgot password?</button>
+        </form>
+        <div className="social-buttons">
+          <button className="social-button google">Sign in with Google</button>
+          <button className="social-button apple">Sign in with Apple</button>
+        </div>
+        <p className="sign-up-prompt">
+          Don't have an account? <button className="sign-up-link">Sign up</button>
+        </p>
       </div>
-      <button className="social-button google">Sign in with Google</button>
-      <button className="social-button apple">Sign in with Apple</button>
-      <p className="sign-up-prompt">
-        Don't have an account? <a href="#">Sign up</a>
-      </p>
-    </div>
     </div>
   );
 };
