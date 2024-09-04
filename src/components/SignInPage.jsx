@@ -1,5 +1,5 @@
 import React from "react";
-import { AiFillEye } from "./icons/AiFillEye"; // Adjust the path as necessary
+import AiFillEye from "./icons/AiFillEye"; // Adjust the path as necessary
 import { ChevronRight } from "./icons/ChevronRight"; // Adjust the path as necessary
 import "./SignInPage.css";
 
