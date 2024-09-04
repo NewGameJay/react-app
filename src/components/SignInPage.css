@@ -1,5 +1,697 @@
-.box {
+.frame {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.frame .group-wrapper {
   height: 1889px;
-  width: 752px;
-  background-image: linear-gradient(to bottom right, #DC07FF, #9A45FE, #590AA0 );
+  width: 1443px;
+}
+
+.frame .group {
+  height: 1889px;
+  width: 1416px;
+}
+
+.frame .NG-landing-page {
+  height: 1889px;
+}
+
+.frame .overlap {
+  border-radius: 16px 16px 0 0;
+  height: 1896px;
+  left: 8px;
+  position: relative;
+  top: 8px;
+  width: 1409px;
+}
+
+.frame .div-overflow-x {
+  border-radius: 16px 16px 0 0;
+  height: 1896px;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 1409px;
+}
+
+.frame .overlap-group {
+  background-image: url(./rectangle-3.svg);
+  background-size: 100% 100%;
+  height: 146px;
+  position: relative;
+  top: 1736px;
+}
+
+.frame .div-yui {
+  height: 63px;
+  left: 620px;
+  position: relative;
+  top: 34px;
+  width: 191px;
+}
+
+.frame .div-yui-wrapper {
+  height: 63px;
+  position: relative;
+}
+
+.frame .img {
+  height: 63px;
+  left: 42px;
+  position: absolute;
+  top: 0;
+  width: 107px;
+}
+
+.frame .main-wrapper {
+  border-radius: 16px 16px 0 0;
+  height: 1736px;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 1409px;
+}
+
+.frame .main {
+  height: 1823px;
+  left: 1px;
+  position: relative;
+  top: -87px;
+}
+
+.frame .div-pt {
+  background: linear-gradient(
+    180deg,
+    rgb(220, 7, 255) 0%,
+    rgb(154, 69, 253) 66.24%,
+    rgb(89, 10, 160) 100%
+  );
+  height: 1823px;
+  width: 1409px;
+}
+
+.frame .frame-wrapper {
+  height: 60px;
+  position: relative;
+  top: 110px;
+  width: 1410px;
+}
+
+.frame .div-wrapper {
+  height: 60px;
+  left: 70px;
+  position: relative;
+  width: 1269px;
+}
+
+.frame .div {
+  height: 60px;
+  left: 18px;
+  position: relative;
+  width: 1234px;
+}
+
+.frame .div-2 {
+  height: 60px;
+  left: 1060px;
+  position: absolute;
+  top: 0;
+  width: 174px;
+}
+
+.frame .div-wrapper-2 {
+  background-color: #a855f7;
+  border-radius: 30px;
+  height: 40px;
+  left: 44px;
+  position: absolute;
+  top: 10px;
+  width: 130px;
+}
+
+.frame .text-wrapper {
+  color: #ededed;
+  font-family: "Montserrat-Medium", Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  left: 21px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 7px;
+  width: 104px;
+}
+
+.frame .div-wrapper-3 {
+  border-radius: 4px;
+  height: 40px;
+  left: -29px;
+  position: absolute;
+  top: 10px;
+  width: 73px;
+}
+
+.frame .text-wrapper-2 {
+  color: #ededed;
+  font-family: "Montserrat-Medium", Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  left: 9px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 7px;
+  width: 55px;
+}
+
+.frame .overlap-2 {
+  height: 60px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 584px;
+}
+
+.frame .div-3 {
+  height: 60px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 503px;
+}
+
+.frame .div-4 {
+  height: 60px;
+  left: 161px;
+  position: absolute;
+  top: 0;
+  width: 343px;
+}
+
+.frame .div-wrapper-4 {
+  height: 56px;
+  left: 77px;
+  position: absolute;
+  top: 2px;
+  width: 157px;
+}
+
+.frame .text-wrapper-3 {
+  color: #ededed;
+  font-family: "Montserrat-SemiBold", Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  left: 19px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 15px;
+  width: 160px;
+}
+
+.frame .overlap-group-wrapper {
+  height: 60px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 73px;
+}
+
+.frame .overlap-group-2 {
+  height: 60px;
+  left: -19px;
+  position: relative;
+  width: 111px;
+}
+
+.frame .borders {
+  height: 60px;
+  left: 19px;
+  position: absolute;
+  top: 0;
+  width: 66px;
+}
+
+.frame .rectangle {
+  background-color: #a855f7;
+  height: 4px;
+  position: relative;
+  top: 60px;
+}
+
+.frame .text-wrapper-4 {
+  color: #ededed;
+  font-family: "Montserrat-SemiBold", Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 17px;
+  width: 111px;
+}
+
+.frame .image-h-rem {
+  height: 40px;
+  left: -14px;
+  position: absolute;
+  top: 7px;
+  width: 88px;
+}
+
+.frame .div-wrapper-5 {
+  height: 56px;
+  left: 495px;
+  position: absolute;
+  top: 2px;
+  width: 89px;
+}
+
+.frame .text-wrapper-5 {
+  color: #ededed;
+  font-family: "Montserrat-SemiBold", Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  left: 9px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 15px;
+  width: 96px;
+}
+
+.frame .div-wrapper-6 {
+  height: 56px;
+  left: 405px;
+  position: absolute;
+  top: 2px;
+  width: 93px;
+}
+
+.frame .text-wrapper-6 {
+  color: #ededed;
+  font-family: "Montserrat-SemiBold", Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  left: 9px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 15px;
+  width: 100px;
+}
+
+.frame .text-wrapper-7 {
+  color: #ededed;
+  font-family: "Montserrat-SemiBold", Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  left: 608px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 17px;
+  width: 96px;
+}
+
+.frame .link-sqs-block {
+  background-color: #ab00c7;
+  border-radius: 300px;
+  height: 56px;
+  left: 1199px;
+  position: absolute;
+  top: 1799px;
+  width: 141px;
+}
+
+.frame .contact-us {
+  color: #ffffff;
+  font-family: "Montserrat-Bold", Helvetica, sans-serif;
+  font-size: 11.1px;
+  font-weight: 700;
+  height: 15px;
+  left: 32px;
+  letter-spacing: 0.24px;
+  line-height: 14.4px;
+  position: absolute;
+  top: 21px;
+  white-space: nowrap;
+}
+
+.frame .div-py {
+  border-radius: 24px;
+  height: 1339px;
+  left: 107px;
+  position: absolute;
+  top: 266px;
+  width: 1186px;
+}
+
+.frame .overlap-3 {
+  height: 375px;
+  left: 164px;
+  position: absolute;
+  top: 79px;
+  width: 747px;
+}
+
+.frame .div-col {
+  height: 245px;
+  left: 0;
+  position: absolute;
+  top: 90px;
+  width: 468px;
+}
+
+.frame .link-hero-join {
+  border: 3px solid;
+  border-color: transparent;
+  border-image: linear-gradient(
+      to bottom,
+      rgb(234, 105, 255),
+      rgb(177, 110, 255) 25%,
+      rgb(182, 115, 253) 50%,
+      rgb(203, 158, 246) 75%,
+      rgb(206, 163, 245) 100%
+    )
+    1;
+  border-radius: 20px;
+  height: 90px;
+  left: 280px;
+  position: absolute;
+  top: 566px;
+  width: 297px;
+}
+
+.frame .overlap-group-3 {
+  height: 42px;
+  left: 29px;
+  position: relative;
+  top: 24px;
+  width: 346px;
+}
+
+.frame .div-overflow-hidden {
+  border: 0;
+  height: 29px;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 6px;
+  width: 346px;
+}
+
+.frame .div-overflow-anim {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 4.25px;
+  height: 28px;
+  left: 0;
+  padding: 0 0 585.5px;
+  position: absolute;
+  top: 1px;
+  width: 248px;
+}
+
+.frame .text-wrapper-8 {
+  color: #ededed;
+  font-family: "Montserrat-Bold", Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.95px;
+  line-height: 28.5px;
+  margin-bottom: -586px;
+  position: relative;
+  text-align: center;
+  width: 228px;
+}
+
+.frame .overlap-wrapper {
+  background-color: rgba(255, 255, 255, 0.45);
+  border: 3px solid;
+  border-color: transparent;
+  border-image: linear-gradient(
+      to bottom,
+      rgb(234, 105, 255),
+      rgb(177, 110, 255) 25%,
+      rgb(182, 115, 253) 50%,
+      rgb(203, 158, 246) 75%,
+      rgb(206, 163, 245) 100%
+    )
+    1;
+  border-radius: 20px;
+  height: 90px;
+  left: 176px;
+  position: absolute;
+  top: 79px;
+  width: 505px;
+}
+
+.frame .text-wrapper-9 {
+  color: #ededed;
+  font-family: "Montserrat-Bold", Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.95px;
+  line-height: 28.5px;
+  margin-bottom: -586px;
+  position: relative;
+  width: 228px;
+}
+
+.frame .link-hero-join-2 {
+  background-color: rgba(255, 255, 255, 0.45);
+  border: 3px solid;
+  border-color: transparent;
+  border-image: linear-gradient(
+      to bottom,
+      rgb(234, 105, 255),
+      rgb(177, 110, 255) 25%,
+      rgb(182, 115, 253) 50%,
+      rgb(203, 158, 246) 75%,
+      rgb(206, 163, 245) 100%
+    )
+    1;
+  border-radius: 20px;
+  height: 90px;
+  left: 176px;
+  position: absolute;
+  top: 285px;
+  width: 505px;
+}
+
+.frame .div-overflow-hidden-2 {
+  border: 0;
+  height: 29px;
+  left: 29px;
+  overflow: hidden;
+  position: absolute;
+  top: 30px;
+  width: 346px;
+}
+
+.frame .divider-vertical-instance {
+  background-color: rgba(255, 255, 255, 0.7) !important;
+  height: 40px !important;
+  left: 440px !important;
+  position: absolute !important;
+  top: 21px !important;
+}
+
+.frame .ls-tight {
+  height: 146px;
+  left: 110px;
+  position: absolute;
+  top: 0;
+  width: 637px;
+}
+
+.frame .overlap-4 {
+  height: 92px;
+  left: -20px;
+  position: relative;
+  top: 41px;
+  width: 678px;
+}
+
+.frame .text-wrapper-10 {
+  color: #ededed;
+  font-family: "Montserrat-Bold", Helvetica, sans-serif;
+  font-size: 30.8px;
+  font-weight: 700;
+  height: 73px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 72.8px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 678px;
+}
+
+.frame .already-have-an {
+  height: 19px;
+  left: 140px;
+  position: absolute;
+  top: 73px;
+  width: 397px;
+}
+
+.frame .link-hero-join-3 {
+  background-color: rgba(255, 255, 255, 0.45);
+  border: 3px solid;
+  border-color: transparent;
+  border-image: linear-gradient(
+      to bottom,
+      rgb(234, 105, 255),
+      rgb(177, 110, 255) 25%,
+      rgb(182, 115, 253) 50%,
+      rgb(203, 158, 246) 75%,
+      rgb(206, 163, 245) 100%
+    )
+    1;
+  border-radius: 20px;
+  height: 90px;
+  left: 340px;
+  position: absolute;
+  top: 486px;
+  width: 505px;
+}
+
+.frame .link-hero-join-4 {
+  background-color: rgba(255, 255, 255, 0.45);
+  border: 3px solid;
+  border-color: transparent;
+  border-image: linear-gradient(
+      to bottom,
+      rgb(234, 105, 255),
+      rgb(177, 110, 255) 25%,
+      rgb(182, 115, 253) 50%,
+      rgb(203, 158, 246) 75%,
+      rgb(206, 163, 245) 100%
+    )
+    1;
+  border-radius: 20px;
+  height: 90px;
+  left: 340px;
+  position: absolute;
+  top: 608px;
+  width: 505px;
+}
+
+.frame .group-2 {
+  height: 158px;
+  left: 495px;
+  position: absolute;
+  top: 867px;
+  width: 200px;
+}
+
+.frame .text-wrapper-11 {
+  color: rgba(237, 237, 237, 0.9);
+  font-family: "Montserrat-SemiBold", Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  height: 34px;
+  left: 6px;
+  letter-spacing: 0;
+  line-height: 72.8px;
+  position: absolute;
+  text-decoration: underline;
+  top: 124px;
+  white-space: nowrap;
+  width: 185px;
+}
+
+.frame .text-wrapper-12 {
+  color: rgba(237, 237, 237, 0.9);
+  font-family: "Montserrat-SemiBold", Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  height: 34px;
+  left: 6px;
+  letter-spacing: 0;
+  line-height: 72.8px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+  width: 185px;
+}
+
+.frame .group-3 {
+  height: 55px;
+  left: 0;
+  position: absolute;
+  top: 51px;
+  width: 196px;
+}
+
+.frame .rectangle-wrapper {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #cbd5e0;
+  border-radius: 12px;
+  height: 55px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 57px;
+}
+
+.frame .rectangle-2 {
+  height: 27px;
+  left: 14px;
+  position: absolute;
+  top: 13px;
+  width: 27px;
+}
+
+.frame .image-wrapper {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #cbd5e0;
+  border-radius: 12px;
+  height: 55px;
+  left: 69px;
+  position: absolute;
+  top: 0;
+  width: 58px;
+}
+
+.frame .image {
+  height: 27px;
+  left: 15px;
+  object-fit: cover;
+  position: absolute;
+  top: 13px;
+  width: 27px;
+}
+
+.frame .vector-wrapper {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #cbd5e0;
+  border-radius: 12px;
+  height: 55px;
+  left: 139px;
+  position: absolute;
+  top: 0;
+  width: 57px;
+}
+
+.frame .vector {
+  height: 26px;
+  left: 22px;
+  position: absolute;
+  top: 14px;
+  width: 13px;
 }
