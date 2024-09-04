@@ -1,6 +1,6 @@
 import React from 'react';
-import SignInPage from './components/SignInPage';
-import './App.css';
+import './App.css'; // Import App.css first
+import SignInPage from './components/SignInPage'; // Import SignInPage component
 
 function App() {
   return (

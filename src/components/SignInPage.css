@@ -1,88 +1,85 @@
 .frame {
   background-color: transparent;
   display: flex;
-  flex-direction: column; /* Change to column for better stacking */
-  justify-content: flex-start; /* Align items to the start */
+  flex-direction: column;
+  justify-content: flex-start;
   width: 100%;
-  min-height: 100vh; /* Ensure it takes full height of the viewport */
+  min-height: 100vh; /* Full height of the viewport */
+  position: relative; /* Added to ensure correct positioning of absolutely positioned children */
 }
 
 .frame .group-wrapper {
-  height: 1889px;
-  width: 1443px;
+  height: 80vh; /* Relative height */
+  width: 90%; /* Relative width */
+  max-width: 1440px; /* Optional max width */
+  margin: 0 auto; /* Center the wrapper */
 }
 
 .frame .group {
-  height: 1889px;
-  width: 1416px;
+  height: auto; /* Allow height to adjust based on content */
+  width: 100%; /* Full width of the parent */
 }
 
 .frame .NG-landing-page {
-  height: 1889px;
+  height: auto; /* Allow height to adjust based on content */
 }
 
 .frame .overlap {
   border-radius: 16px 16px 0 0;
-  height: 1896px;
-  left: 8px;
-  position: relative;
-  top: 8px;
-  width: 1409px;
+  height: auto; /* Allow height to adjust based on content */
+  width: 100%; /* Full width of the parent */
+  position: relative; /* Keep positioning */
+  left: 8px; /* Keep original positioning */
+  top: 8px; /* Keep original positioning */
 }
 
 .frame .div-overflow-x {
   border-radius: 16px 16px 0 0;
-  height: 1896px;
-  left: 0;
+  height: auto; /* Allow height to adjust based on content */
   overflow: hidden;
-  position: absolute;
-  top: 0;
-  width: 1409px;
+  width: 100%; /* Full width of the parent */
+  position: absolute; /* Keep positioning */
+  top: 0; /* Keep original positioning */
+  left: 0; /* Keep original positioning */
 }
 
 .frame .overlap-group {
   background-image: url(./rectangle-3.svg);
-  background-size: 100% 100%;
-  height: 146px;
-  position: relative;
-  top: 1736px;
+  background-size: cover; /* Cover the entire area */
+  height: 10vh; /* Relative height */
+  position: relative; /* Keep positioning */
+  top: 1736px; /* Keep original positioning */
 }
 
 .frame .div-yui {
-  height: 63px;
-  left: 620px;
-  position: relative;
-  top: 34px;
-  width: 191px;
+  height: 63px; /* Keep original height */
+  width: 50%; /* Relative width */
+  margin: 0 auto; /* Center the element */
+  position: relative; /* Keep positioning */
+  left: 620px; /* Keep original positioning */
+  top: 34px; /* Keep original positioning */
 }
 
 .frame .div-yui-wrapper {
-  height: 63px;
-  position: relative;
+  height: 63px; /* Keep original height */
+  position: relative; /* Keep positioning */
 }
 
 .frame .img {
-  height: 63px;
-  left: 42px;
-  position: absolute;
-  top: 0;
-  width: 107px;
+  height: auto; /* Allow height to adjust based on content */
+  width: 100%; /* Full width of the parent */
 }
 
 .frame .main-wrapper {
   border-radius: 16px 16px 0 0;
   height: auto; /* Allow height to adjust based on content */
-  left: 0;
-  overflow: hidden;
-  position: relative; /* Change to relative for proper stacking */
-  width: 100%; /* Use full width */
+  width: 100%; /* Full width of the parent */
+  position: relative; /* Keep positioning */
 }
 
 .frame .main {
   height: auto; /* Allow height to adjust based on content */
-  left: 0;
-  position: relative;
-  top: 0; /* Reset top positioning */
+  width: 100%; /* Full width of the parent */
 }
 
 .frame .div-pt {
@@ -93,15 +90,14 @@
     rgb(89, 10, 160) 100%
   );
   height: auto; /* Allow height to adjust based on content */
-  width: 100%; /* Use full width */
-  min-height: 1823px; /* Set a minimum height */
+  width: 100%; /* Full width of the parent */
 }
 
 .frame .frame-wrapper {
-  height: auto; /* Allow height to adjust based on content */
+  height: 60px;
   position: relative;
-  top: 0; /* Reset top positioning */
-  width: 100%; /* Use full width */
+  top: 110px;
+  width: 1410px;
 }
 
 .frame .div-wrapper {

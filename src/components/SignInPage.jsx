@@ -1,5 +1,4 @@
 import React from "react";
-import { ChevronRight } from "./icons/ChevronRight"; // Adjust the path as necessary
 import "./SignInPage.css";
 
 const SignInPage = () => {
