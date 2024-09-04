@@ -1,9 +1,10 @@
 .frame {
   background-color: transparent;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column; /* Change to column for better stacking */
+  justify-content: flex-start; /* Align items to the start */
   width: 100%;
+  min-height: 100vh; /* Ensure it takes full height of the viewport */
 }
 
 .frame .group-wrapper {
@@ -70,19 +71,18 @@
 
 .frame .main-wrapper {
   border-radius: 16px 16px 0 0;
-  height: 1736px;
+  height: auto; /* Allow height to adjust based on content */
   left: 0;
   overflow: hidden;
-  position: absolute;
-  top: 0;
-  width: 1409px;
+  position: relative; /* Change to relative for proper stacking */
+  width: 100%; /* Use full width */
 }
 
 .frame .main {
-  height: 1823px;
-  left: 1px;
+  height: auto; /* Allow height to adjust based on content */
+  left: 0;
   position: relative;
-  top: -87px;
+  top: 0; /* Reset top positioning */
 }
 
 .frame .div-pt {
@@ -92,15 +92,16 @@
     rgb(154, 69, 253) 66.24%,
     rgb(89, 10, 160) 100%
   );
-  height: 1823px;
-  width: 1409px;
+  height: auto; /* Allow height to adjust based on content */
+  width: 100%; /* Use full width */
+  min-height: 1823px; /* Set a minimum height */
 }
 
 .frame .frame-wrapper {
-  height: 60px;
+  height: auto; /* Allow height to adjust based on content */
   position: relative;
-  top: 110px;
-  width: 1410px;
+  top: 0; /* Reset top positioning */
+  width: 100%; /* Use full width */
 }
 
 .frame .div-wrapper {
