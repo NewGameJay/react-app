@@ -1,5 +1,5 @@
 import React from "react";
-import { AiFillEye } from "./icons/AiFillEye";
+// import { AiFillEye } from "./icons/AiFillEye"; // Removed this line
 import { ChevronRight } from "./icons/ChevronRight"; // Adjust the path as necessary
 import "./SignInPage.css";
 
@@ -11,11 +11,11 @@ const SignInPage = () => {
         <form className="sign-in-form">
           <div className="input-group">
             <input type="email" placeholder="Email" required />
-            <AiFillEye className="eye-icon" />
+            {/* <AiFillEye className="eye-icon" /> // Removed this line */}
           </div>
           <div className="input-group">
             <input type="password" placeholder="Password" required />
-            <AiFillEye className="eye-icon" />
+            {/* <AiFillEye className="eye-icon" /> // Removed this line */}
           </div>
           <button type="submit" className="sign-in-button">Sign In</button>
           <button className="forgot-password">Forgot password?</button>
@@ -31,4 +31,5 @@ const SignInPage = () => {
     </div>
   );
 };
+
 export default SignInPage;
