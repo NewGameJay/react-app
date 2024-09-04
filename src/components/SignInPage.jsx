@@ -1,7 +1,7 @@
 import React from "react";
-import { AiFillEye } from "./AiFillEye";
-import { ChevronRight } from "./ChevronRight";
-import "./SignInPage.css"; // Assuming you have a CSS file for styles
+import { AiFillEye } from "./icons/AiFillEye"; // Adjust the path as necessary
+import { ChevronRight } from "./icons/ChevronRight"; // Adjust the path as necessary
+import "./SignInPage.css";
 
 const SignInPage = () => {
   return (
